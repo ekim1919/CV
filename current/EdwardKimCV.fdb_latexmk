@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1623345386 "EdwardKimCV.tex" "EdwardKimCV.pdf" "EdwardKimCV" 1623345386
+["pdflatex"] 1624938846 "EdwardKimCV.tex" "EdwardKimCV.pdf" "EdwardKimCV" 1624938847
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -64,12 +64,12 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "EdwardKimCV.aux" 1623345386 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
-  "EdwardKimCV.out" 1623345386 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "EdwardKimCV.tex" 1623345385 8455 0d18098470222a5a899a02ad0aed0c7c ""
+  "EdwardKimCV.aux" 1624938847 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
+  "EdwardKimCV.out" 1624938847 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "EdwardKimCV.tex" 1624938846 8785 3ebd097dec79bfd29fcbc009469b9ace ""
   "resume.cls" 1571545424 4800 7d0890dd8b770ce0426136049ebec6c1 ""
   (generated)
   "EdwardKimCV.aux"
-  "EdwardKimCV.pdf"
   "EdwardKimCV.out"
+  "EdwardKimCV.pdf"
   "EdwardKimCV.log"
