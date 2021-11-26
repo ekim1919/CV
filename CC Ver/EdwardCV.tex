@@ -24,6 +24,10 @@
 
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
 \usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{mathabx}
+
+
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Edward Kim} % Your name
@@ -61,45 +65,45 @@ B.A in Pure Mathematics \\
 \end{rSection}
 
 \begin{rSection}{Publications}
-  \begin{itemize}
+  \begin{itemize}[leftmargin=*]
     \item Sanaz Sheikhi, {\bf Edward Kim}, Parasara Sridhar Duggirala, Stanley Bak: \newline
     \textit{Coverage-Guided Fuzz Testing for Testing Cyber Physical Systems} \newline
-    Submitted to 13th ACM/IEEE International Conference on Cyber-Physical Systems
+    Submitted to {\bf 13th ACM/IEEE International Conference on Cyber-Physical Systems}
 
     \item  Luca Geretti, Julien Alexandre dit Sandretto, Matthias Althoff, Luis Benet, Alexandre Chapoutot, Pieter Collins, Parasara Sridhar Duggirala, Marcelo Forets, {\bf Edward Kim}, Uziel Linares, David P. Sanders, Christian Schilling, and Mark Wetzlinger: \newline
     \textit{ARCH-COMP21 Category Report: Continuous and Hybrid Systems with Nonlinear Dynamics} \newline
-    8th Int. Workshop on Applied Verification for Continuous and Hybrid Systems, 2021
+    {\bf 8th Int. Workshop on Applied Verification for Continuous and Hybrid Systems, 2021}
 
     \item {\bf Edward Kim}, Stanley Bak, Parasara Sridhar Duggirala: \newline
     \textit{Automatic Dynamic Parallelotope Bundles for Reachability Analysis of Nonlinear Systems} \newline
-    19th International Conference on Formal Modeling and Analysis of Timed Systems, 2021 \newline
+    {\bf 19th International Conference on Formal Modeling and Analysis of Timed Systems, 2021} \newline
     (\href{https://arxiv.org/abs/2105.11796}{arXiv}, \href{https://ekim1919.github.io/files/formats21.pdf)}{Slides}, \href{https://link.springer.com/book/10.1007/978-3-030-85037-1}{Springer Proceedings})
 
     \item {\bf Edward Kim}, Parasara Sridhar Duggirala: \newline
     \textit{Kaa: A Python Implementation of Reachable Set Computation Using Bernstein Polynomials} \newline
-    7th Int. Workshop on Applied Verification for Continuous and Hybrid Systems, 2020 \newline
+    {\bf 7th Int. Workshop on Applied Verification for Continuous and Hybrid Systems, 2020} \newline
     (\href{https://ekim1919.github.io/files/ARCH2020.pdf}{Slides}, \href{https://easychair.org/publications/volume/ARCH20}{Proceedings})
 
     \item Wei-Kai Lai, {\bf Edward Kim}: \newline
     \textit{Some Inequalities Involving Geometric and Harmonic Means} \newline
-    International Mathematical Forum, Vol. 11, 2016, no. 4, 163-169
+    {\bf International Mathematical Forum, Vol. 11, 2016, no. 4, 163-169}
   \end{itemize}
 \end{rSection}
 
 \begin{rSection}{Other Contributions}
-  \begin{itemize}
+  \begin{itemize}[leftmargin=*]
 
     \item Stanley Bak, {\bf Edward Kim}, Parasara Sridhar Duggirala: \newline
     \textit{COVID Infection Prediction using CPS Formal Verification Methods} \newline
-    ACM SIGBED Blog, June 21, 2021. \href{https://sigbed.org/2021/06/21/sidbed-blog-covid-formal-verification/}{Link}
+    {\bf ACM SIGBED Blog, June 21, 2021.} \href{https://sigbed.org/2021/06/21/sidbed-blog-covid-formal-verification/}{Link}
   \end{itemize}
 \end{rSection}
 \newpage
 \begin{rSection}{Expositions} (*)-WIP
-  \begin{itemize}
-    \item {\bf Notes on the Fourier Analysis of Boolean Functions} \hfill \newline
-    A short survey on the Fourier Analysis of Boolean Functions with view towards the Linial-Mansour-Nisan Theorem written as the final project for the Boolean Function Complexity course (Duke CPS 590)
-    \href{https://github.com/ekim1919/Research/blob/master/CS590/EdwardKimPaper.pdf}{Report}
+  \begin{itemize}[leftmargin=*]
+    %\item {\bf Notes on the Fourier Analysis of Boolean Functions} \hfill \newline
+    %A short survey on the Fourier Analysis of Boolean Functions with view towards the Linial-Mansour-Nisan Theorem written as the final project for the Boolean Function Complexity course (Duke CPS 590)
+    %\href{https://github.com/ekim1919/Research/blob/master/CS590/EdwardKimPaper.pdf}{Report}
 
     \item {\bf Random Local Quantum Circuits as Unitary 2-designs} \hfill \newline
      An annotation and review of \textit{Random quantum circuits are approximate 2-designs} by Aram W. Harrow and Richard A. Low. The final result of a directed reading conducted during the Spring 2020 semester.
@@ -135,14 +139,18 @@ Computer Science: & Quantum Algorithms and Computation, Quantum Information Theo
 
 
 \begin{rSection}{Experience}
-{\bf University of North Carolina at Chapel Hill} \hfill {\bf 2019 -} \\
-{\bf Research Assistant} \\
-Providing research assistance to projects pertaining to the formal verification of safety properties of \emph{non-linear systems} and \emph{hybrid automata}. Focusing on counter-example generation to aid practitioners in verifying the safety of their models.
-\begin{itemize}
-\item Created a tool called {\bf Kaa} for the reachability of non-linear discrete dynamical systems using parallelotope bundles. Improved on existing tools for reachablility computation using these techniques.
-\item Used parallelotope-based reachability techniques to model COVID disease dynamics.
-\item Investigated applications of \emph{fuzz testing} for generating testcases for autonomous racing vehicles.
-\end{itemize}
+  \begin{itemize}[leftmargin=*]
+    \item
+      {\bf University of North Carolina at Chapel Hill} \hfill {\bf 2019 -} \\
+      {\bf Research Assistant} \\
+      Providing research assistance to projects pertaining to the formal verification of safety properties of \emph{non-linear systems} and \emph{hybrid automata}. Focusing on counter-example generation to aid practitioners in verifying the safety of Cyber-physical Systems.
+        \begin{itemize}[label=$\blackdiamond$]
+            \item Created a tool called {\bf Kaa} for the reachability of non-linear discrete dynamical systems using parallelotope bundles. Improved on existing tools for reachablility computation using these techniques.
+            \item Used parallelotope-based reachability techniques to model COVID disease dynamics.
+            \item Investigated applications of \emph{fuzz testing} for generating testcases for autonomous racing vehicles.
+        \end{itemize}
+  \end{itemize}
+
 
 %\newpage
 %{\bf University of South Carolina} \hfill {\bf 2016} \\
@@ -153,63 +161,73 @@ Providing research assistance to projects pertaining to the formal verification 
 \newpage
 
 \begin{rSection}{Services}
-  {\bf South Carolina State University Deep Learning Group} \hfill {\bf Winter 2021} \\
-  {\bf Research Mentor} \\
-Starting from December 5th, 2021, I will mentor undergraduate research students from under-represented minority groups in performing Deep Learning research as follows:
 
-\begin{itemize}
-  \item Teach Python and Tensorflow for two undergraduate Research assistants in Computer Science at SCSU.
-  \item Aid the research team to construct deep learning models using Tensorflow
-  \item Provide programming mentorship and support during Winter 2021 and Summer 2022.
+\begin{itemize}[leftmargin=*]
+  \item
+      {\bf South Carolina State University Deep Learning Group} \hfill {\bf Winter 2021} \\
+        {\bf Research Mentor} \\
+      I will mentor undergraduate research students from under-represented minority groups in performing Machine Learning research as follows:
+
+      \begin{itemize}[label=$\blackdiamond$]
+        \item Teach Python and Tensorflow for two undergraduate Research assistants in Computer Science at SCSU.
+        \item Aid the research team to construct deep learning models using Tensorflow
+        \item Provide programming mentorship and support during Winter 2021 and Summer 2022.
+      \end{itemize}
+
+      This research is sponsored by \href{https://hollingscancercenter.musc.edu/outreach/statewide-commitments/sc-cadre}{South Carolina Cancer Disparities Research Center}, a partnership between SCSU and MUSC Hollings Cancer Center to improve diversity in cancer research.
+      %Also will provide online support (8 hours/ week) to the students during my working semesters.
+
+      \item
+      {\bf UNC Cyber-Physical Systems Lunch } \hfill {\bf Spring 2021}\\
+      {\bf Organizer} \\
+      Organized the Cyber-physical/Real-time Systems Lunch during the Spring 2020 semester. During the lunch, students and faculty involved in Autonomous Systems, Real-Time Systems, Cyber-physical Systems, and Formal Verification met to discuss research and present recently-published papers during an hour-long session each week.
+      \begin{itemize}[label=$\blackdiamond$]
+        \item Provided weekly platform for graduate students to perform practice talks and give guest lectures.
+        \item Presented several talks on current research progress.
+      \end{itemize}
 \end{itemize}
-
-This research is sponsored by \href{https://hollingscancercenter.musc.edu/outreach/statewide-commitments/sc-cadre}{South Carolina Cancer Disparities Research Center}, a partnership between SCSU and MUSC Hollings Cancer Center to improve diversity in cancer research.
-%Also will provide online support (8 hours/ week) to the students during my working semesters.
-  \\
-  \\
-  {\bf UNC Cyber-Physical Systems Lunch } \hfill {\bf Spring 2021}\\
-  {\bf Organizer} \\
-  Organized the Cyber-physical/Real-time Systems Lunch during the Spring 2020 semester. During the lunch, students and faculty involved in Autonomous Systems, Real-Time Systems, Cyber-physical Systems, and Formal Verification met to discuss research and present recently-published papers during an hour-long session each week.
-  \begin{itemize}
-    \item Provided weekly platform for graduate students to perform practice talks and give guest lectures.
-    \item Presented several talks on current research progress.
-  \end{itemize}
 \end{rSection}
 
 \begin{rSection}{Pedagogy}
-{\bf Calculus Tutor} \hfill {\bf 2018} \\
-Tutored Calculus to students at South Carolina State University, a Historically Black College and University (HSBC). Stressed geometric intuition and visual approaches rather than rote memorization of formulae and concepts. \\
-\\
-{\bf Programming Languages Tutor} \hfill {\bf 2018} \\
-Provided discussions for South Carolina State University Computer Science students attending summer courses. These discussions pertained to basic programming language concepts in the context of Python, Java, and C. \\
+  \begin{itemize}[leftmargin=*]
+    \item {\bf Calculus Tutor} \hfill {\bf 2018} \\
+    Tutored Calculus to students at South Carolina State University, a Historically Black College and University (HSBC). Stressed geometric intuition and visual approaches rather than rote memorization of formulae and concepts.
+
+    \item {\bf Programming Languages Tutor} \hfill {\bf 2018} \\
+    Provided discussions for South Carolina State University Computer Science students attending summer courses. These discussions pertained to basic programming language concepts in the context of Python, Java, and C. \\
+  \end{itemize}
 \end{rSection}
 %\newpage
 
-\begin{rSection}{Projects and Software [\href{https://github.com/ekim1919}{Github}]}
-    {\bf Kaa ($>$ 8000 lines, Python)} \\
-    Software created to experiment with reachable set computations of discrete non-linear dynamical systems. The project was specifically created to understand the effectiveness of dynamically-reorienting parallelotope bundles on improving the quality of over-approximations of reachable sets. It is the first experimental software created to properly plot the evolution of these dynamic bundle strategies for practitioners to understand the efficacy of different bundle strategies. It significantly improved the usability of previously existing reachable set simulators using these techniques. \\
+\begin{rSection}{Projects and Software[\href{https://github.com/ekim1919}{Github}]}
+  \begin{itemize}[leftmargin=*]
+    \item {\bf Kaa (Python, C\verb!++!)}\href{https://github.com/Tarheel-Formal-Methods/kaa-dynamic}{ [Link] } \\
+        Software created to experiment with reachable set computations of discrete non-linear dynamical systems. The project was specifically created to understand the effectiveness of dynamically-reorienting parallelotope bundles on improving the quality of over-approximations of reachable sets. It is the first experimental software created to properly plot the evolution of these dynamic bundle strategies for practitioners to understand the efficacy of different bundle strategies. It significantly improved the usability of previously existing reachable set simulators using these techniques.
 
-    {\bf TDAGo (Python)} \\
-    Python program to analyze Go games using Persistence Homology for Duke's Topological Data Analysis class. Used the evolution of persistence diagrams to detect topologically-significant features of games played between iterations of Google Deepmind's AlphaGo. \newline
-    \href{https://github.com/ekim1919/TDAGo/blob/master/paper/final.pdf}{ [Link to Report] }
-    %\item[Simple Microarchitecture (Assembly)] - Programmed microcode implementing the ISA for a simple microarchitecture completely from %stratch. Includes a program simluating the CPU by clock-cycle to visualize the microcode working.
+    \item
+        {\bf TDAGo (Python)} \href{https://github.com/ekim1919/TDAGo}{ [Link] }\\
+        Python program to analyze Go games using Persistence Homology for Duke's Topological Data Analysis class. Used the evolution of persistence diagrams to detect topologically-significant features of games played between iterations of Google Deepmind's AlphaGo. \newline
+
+        %\item[Simple Microarchitecture (Assembly)] - Programmed microcode implementing the ISA for a simple microarchitecture completely from %stratch. Includes a program simluating the CPU by clock-cycle to visualize the microcode working.
+  \end{itemize}
 \end{rSection}
 
 \begin{rSection}{Workshops/Conferences Attended}
+\begin{itemize}[leftmargin=*]
+  \item {\bf QONFEST 2021 Paris } \hfill {\bf 2021} \\
+  19th International Conference on Formal Modeling and Analysis of Timed Systems \\
+  \href{https://qonfest2021.lacl.fr/formats21.php}{Link to Program}
 
-{\bf QONFEST 2021 Paris } \hfill {\bf 2021} \\
-19th International Conference on Formal Modeling and Analysis of Timed Systems \\
-\href{https://qonfest2021.lacl.fr/formats21.php}{Link to Program}
+  \item {\bf  8th Int. Workshop on Applied Verification for Continuous and Hybrid Systems} \hfill {\bf 2021} \\
+  \href{https://cps-vo.org/group/ARCH/archive}{Link to Program}
 
-{\bf  8th Int. Workshop on Applied Verification for Continuous and Hybrid Systems} \hfill {\bf 2021} \\
-\href{https://cps-vo.org/group/ARCH/archive}{Link to Program}
+  \item {\bf  7th Int. Workshop on Applied Verification for Continuous and Hybrid Systems} \hfill {\bf 2020} \\
+  \href{https://cps-vo.org/group/ARCH/archive}{Link to Program}
 
-{\bf  7th Int. Workshop on Applied Verification for Continuous and Hybrid Systems} \hfill {\bf 2020} \\
-\href{https://cps-vo.org/group/ARCH/archive}{Link to Program}
-
-{\bf Simons Institute for the Theory of Computation} \hfill {\bf 2020} \\
-Spring 2020 Workshop on Quantum Protocols: Testing \& Quantum PCPs \\
-\href{https://simons.berkeley.edu/workshops/quantum-2020-2}{Link to Workshop Description}
+  \item {\bf Simons Institute for the Theory of Computation} \hfill {\bf 2020} \\
+  Spring 2020 Workshop on Quantum Protocols: Testing \& Quantum PCPs \\
+  \href{https://simons.berkeley.edu/workshops/quantum-2020-2}{Link to Workshop Description}
+\end{itemize}
 \end{rSection}
 
 \end{document}
